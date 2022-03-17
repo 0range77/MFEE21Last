@@ -1,0 +1,151 @@
+<!-- 許願池 demo 2022 03 01 09:47 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<%- include("import.ejs") %>  
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<link rel="stylesheet" type="text/css" href="/css/memberDetail.css">
+</head>
+<body>
+	<%- include("header.ejs") %>
+
+	<!-- ====== 匯入許願池項目 ===== -->
+	<main class="cart">		
+		<div class="container  container-wish">
+			<div class="row" id="myoption">
+				<% for ( var result of result ) { %>
+					<div class="col-lg-3 mb-3">
+						<a>
+							<div class="card wish-card">
+								<img  src="http://localhost:3000/images/upload_images/<%= result.image %>" alt="" class="card-img-top">
+								<div class="card-body">
+									<h5 class="card-title"><%= result.commodity_name %></h5>
+									<p class="card-text"><%= result.Product_Description %> </p>
+								</div>
+							</div>
+						</a>
+					</div>
+				<% } %>
+			</div>
+		</div>
+	</main>
+  
+	<%- include("footer.ejs") %>
+
+	<script type="text/javascript" src="/js/jquery.js"></script>
+	<script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
+
+
+
+
+
+<!-- 
+===========
+
+
+
+
+
+<nav class="bg-dark navbar-dark">
+  <div class="container">
+	<a href="" class="navbar-brand"><i class="fas fa-tree mr-2"></i>Forest</a>
+  </div>
+  </nav>
+   <section id="header" class="jumbotron text-center">
+	 <h1 class="display-3">FOREST</h1>
+	 <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+	 <a href="" class="btn btn-primary">Click</a>
+	 <a href="" class="btn btn-secondary">Click</a>
+</section>
+  
+<section id="gallery">
+  <div class="container">
+	<div class="row">
+	<div class="col-lg-4 mb-4">
+	<div class="card">
+	  <img src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
+	  <div class="card-body">
+		<h5 class="card-title">Sunset</h5>
+		<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+	   <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+		<a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+	  </div>
+	 </div>
+	</div>
+  <div class="col-lg-4 mb-4">
+  <div class="card">
+	  <img src="https://images.unsplash.com/photo-1516214104703-d870798883c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
+	  <div class="card-body">
+		<h5 class="card-title">Sunset</h5>
+		<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+	   <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+		<a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+	  </div>
+
+
+	  </div>
+	</div>
+	<div class="col-lg-4 mb-4">
+	<div class="card">
+	  <img src="https://images.unsplash.com/photo-1477862096227-3a1bb3b08330?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" alt="" class="card-img-top">
+	  <div class="card-body">
+		<h5 class="card-title">Sunset</h5>
+		<p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut eum similique repellat a laborum, rerum voluptates ipsam eos quo tempore iusto dolore modi dolorum in pariatur. Incidunt repellendus praesentium quae!</p>
+	   <a href="" class="btn btn-outline-success btn-sm">Read More</a>
+		<a href="" class="btn btn-outline-danger btn-sm"><i class="far fa-heart"></i></a>
+	  </div>
+	 </div>
+	</div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+=========== -->
+
+
+
+
+
+
+
+
+
+<!-- =====================OK============================= -->
+<!-- <html lang="en">
+  <head>
+	  <meta charset="UTF-8">
+	  <title>Sample Site</title>
+	  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+	 <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	  
+  </head>
+  <body> -->
+
+<!-- =====demo -->
+
+
+<!-- =====demo -->
+
+	<!-- <div class="row">
+	  <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xs-offset-0 col-sm-offset-0 col-md-offset-3 col-lg-offset-3 toppad" style="padding-top:30px">
+		   
+
+
+
+
+	  </div>
+  </body>
+</html> -->
+
+
+<!-- =====================OK============================= -->
